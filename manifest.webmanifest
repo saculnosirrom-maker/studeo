@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "Studeo",
+  "short_name": "Studeo",
+  "description": "Calendario de pruebas, apuntes y videos para estudiar.",
+  "lang": "es-AR",
+  "dir": "ltr",
+  "start_url": "./index.html#inicio",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fcfffc",
+  "theme_color": "#fcfffc",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Calendario", "url": "./index.html#calendario", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Apuntes", "url": "./index.html#apuntes", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
