@@ -1,7 +1,7 @@
 /* Studeo: service worker. Guarda la app para que abra sin internet.
    Los datos (eventos, apuntes) NO pasan por acá: viven en el almacenamiento del navegador.
    YouTube y Supabase siempre van a la red. */
-const CACHE = 'studeo-16e2de7102';
+const CACHE = 'studeo-10cce5c22d';
 const APP = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
